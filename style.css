@@ -1,6 +1,12 @@
 /* Base styles */
-    html,body{
+    body{
         background-color: #2C2C2C;
+    }
+
+    * {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: normal;
     }
 
 /* Headings */
@@ -19,7 +25,6 @@
       padding-bottom: 8px;
       margin-top: 45px;
       margin-bottom: 18px;
-      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 1.1px;
     }
@@ -27,7 +32,6 @@
     h3 {
       margin-top: 30px;
       margin-bottom: 0px;
-      font-weight: 600;
       text-transform: capitalize;
       letter-spacing: 1.1px;
     }
@@ -38,7 +42,7 @@
       margin: 0 auto 25px auto;
       border-radius: 50%;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-      max-width: 150px;
+      max-width: 100px;
       height: auto;
       border: 4px solid #ffffff;
     }
@@ -61,7 +65,7 @@
     /* Lists */
     ol {
        margin-left: 25px;
-       color: #ffc107;
+       color: #FFD700;
        padding-left: 0;
     }
 
@@ -81,12 +85,14 @@
 
  /* Footer */
     footer {
+      font-family: "Ubuntu", sans-serif;
+      font-weight: 400;
+      font-style: italic;
       margin-top: 50px;
       font-size: 0.9em;
-      color:  #ffc107;
+      color: #FFD700;
       text-align: center;
       padding-bottom: 20px;
-      font-style: italic;
       letter-spacing: 0.7px;
     }
 
@@ -97,11 +103,6 @@
        padding-left: 0;
     }
 
-    body.hobbies-page footer {
-      margin-top: 700px;
-    }
-
-
 /* contact */
     body.contact-page p {
       margin-bottom: 0px;
@@ -109,8 +110,4 @@
       color: #D3D3D3;
     }
     
-    body.contact-page footer {
-      text-align: center;
-      margin-top: 500px;
-    }
 
