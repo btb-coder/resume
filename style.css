@@ -100,14 +100,15 @@
     body.hobbies-page ol {
        margin-left: 25px;
        color: #D3D3D3;
-       padding-left: 0;
+       padding-left: 25px;
     }
 
 /* contact */
     body.contact-page p {
       margin-bottom: 0px;
-      margin-top: 0;
+      margin-top: 0px;
       color: #D3D3D3;
+      padding-left: 25px;
     }
     
 
